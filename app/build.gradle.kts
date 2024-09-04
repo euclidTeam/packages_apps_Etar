@@ -68,6 +68,10 @@ android {
 		}
 	}
 
+	buildFeatures {
+		buildConfig = true
+	}
+
 	/*
 	 * To sign release build, create file gradle.properties in ~/.gradle/ with this content:
 	 *
